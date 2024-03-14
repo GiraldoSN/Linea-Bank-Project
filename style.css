@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* .hero{
+	height: 100vh;
+	width: 100%
+	background-image: url(../img/background.jpg)
+	background-size: cover;
+	background-position: center;
+} */
+
+.header-with-border {
+    padding-bottom: 10px; /* Menambahkan padding bawah untuk efek border */
+    border-bottom: 2px; /* Atur warna dan ketebalan sesuai kebutuhan */
+}
+
+body{
+    background-color: #d4cece;
+    /* font-family: "PP Monument Extended Regular", sans-serif; */
+    font-family: jakarta plush, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 10px; /* Menambahkan padding keseluruhan pada header */
+    margin-bottom: 10px; /* Menambahkan margin bawah untuk memisahkan header dengan konten */
+}
+
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 3%;
+    /* height: 50px; */
+} 
+
+.btn {
+    background-color: #8DF326;
+    color: black;
+    padding: 10px 17px;
+    border: 7px transparent;
+    border-radius: 5px;
+    font-family: "PP Monument Extended Regular", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "PP Monument Extended Regular", sans-serif;
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-family: "PP Monument Extended Regular", sans-serif;
+      /* font-size: 12px */
+}
+
+nav ul li a:hover{
+    color: #8DF326;
+    transition: .4s ease;
+}
+
+.judul{
+    text-align: right;
+    padding-top: 3%;
+    padding-right: 20%;
+}
+
+.dolar{
+    background-color: #8DF326;
+    color: black;
+    border-radius: 40px;
+    font-weight: 1000;
+    transition: transform .4s;
+    margin: 0;
+    width: 11%;
+    padding: 07px;
+    text-align: center;
+    font-family: "PP Monument Extended Regular", sans-serif;
+}
+
+.dolar:hover {
+    transform: scale(1.1); /* Menerapkan efek perubahan skala saat dihover */
+}
+
+.teks{
+    margin-left: 22%;
+    margin-top: -76px;
+    font-size: 20px;
+}
+
+img[src="Group Card.svg"] {
+    padding-top: 5%;
+    padding-left: 21%;
+}
+
+.teks2 {
+    font-size: 15px;
+    text-align: left;
+    margin-top: -17%; /* Atur margin atas sesuai kebutuhan */
+    margin-left: 60%;
+  }
+
+  .button-link {
+    display: inline-block; /* Mengubah tautan menjadi blok agar dapat memberikan lebar dan tinggi */
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+.button-link button {
+    background-color: #75dd0d; /* Warna latar belakang tombol */
+    color: black; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Memberikan border-radius (jika diinginkan) */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+    transition: background-color 0.3s; /* Efek transisi perubahan warna latar belakang */
+    /* Menambahkan efek bayangan */
+    box-shadow: 5px 5px 5px black; /* 5px ke kanan, 5px ke bawah, dengan blur 5px dan warna abu-abu */
+    font-weight: bold; /* Menjadikan teks tebal secara default */
+}
+
+.button-link button:hover {
+    background-color: #45a049; /* Warna latar belakang tombol saat dihover */
+    color: red; /* Mengubah warna teks menjadi merah saat dihover */
+    font-weight: bold; /* Membuat teks menjadi tebal saat dihover */
+}
+
+.slide-container {
+    display: flex;
+    margin-top: 20%;
+    flex-direction: column;
+    background-color: black; /* Latar belakang hitam */
+    color: white; /* Warna teks putih */
+}
+
+.slide {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.Group1{
+    /* position: relative; */
+}
+
+img[src="Vector.svg"] {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    /* bottom: 02px; */
+    top: 350px;
+    /* margin-bottom: 5px; */
+    left: 200px; /* Mengatur posisi kekanan */
+}
+
+img[src="Ornamen.svg"]{
+    width: 50px;
+    height: 50px;
+} 
+
+.header-with-border{
+    
+}
